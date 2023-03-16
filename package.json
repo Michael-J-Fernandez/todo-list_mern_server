@@ -1,25 +1,18 @@
 {
-  "name": "todo-list_mern_server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "todo-list-mern-server",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Michael-J-Fernandez/todo-list_mern_server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Michael-J-Fernandez/todo-list_mern_server/issues"
-  },
-  "homepage": "https://github.com/Michael-J-Fernandez/todo-list_mern_server#readme",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^7.0.2"
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "mongoose": "^7.0.2",
+    "morgan": "~1.9.1"
   }
 }
