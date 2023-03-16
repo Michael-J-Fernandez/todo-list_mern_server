@@ -1,0 +1,25 @@
+{
+  "name": "todo-list_mern_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-J-Fernandez/todo-list_mern_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-J-Fernandez/todo-list_mern_server/issues"
+  },
+  "homepage": "https://github.com/Michael-J-Fernandez/todo-list_mern_server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  }
+}
